@@ -1,0 +1,53 @@
+# DDA3
+#### By Aeonicentity
+
+## Bill of Materials:
+1 Cheek Rest (hard plastic)
+1 Brace (soft plastic)
+1 Lever (hard plastic)
+1 Pin (hard plastic)
+### OR
+1 M6x10 hex bolt
+2 Drilling Jigs (hard plastic)
+1 Base (hard plastic)
+3 M3x12 roll pins
+1 M3x16 roll pin (20 mm pin will work just cut it to length)
+1 AR-15 Magazine Catch Spring
+
+## Assembly:
+Print the plastic parts. If assembling with the M6x10 hex screw, print the two drilling jigs and cut
+or file the screw’s remaining length from the end of the jig. File and taper the screw’s end, then
+using the guide hole, drill a hole through the screw’s head. If using the plastic Pin, insert the roll
+pin into the hole at the top of the Pin and press in to reinforce the plastic Pin. Insert the Pin into
+the cheek rest. Position the lever over the guiding slot, and push the two 12mm roll pins in from
+either side. Glue roll pins if loose. Insert spring into cheek rest, then place Base cup side
+towards the spring on the spring. Compress with vise or c clamp until flush with cheek rest.
+Insert 20mm roll pin. Test functionality and range of motion. Note you will need to push down
+hard on the lever to get the pin to drop far enough to insert over the end of a buffer tube. This is
+as designed. Apply glue to the inside of Brace. Insert cheek rest into the T-shaped hole on the
+brace. Let sit for 15 minutes before finishing operations. Weave velcro or other strapping
+material into the brace to satisfy the dog killers (or not, I’m not your mom).
+
+## Small parts, lever, pin, and base:
+E-sun PLA 235, supports from build plate. Print the pin wide side down, the base on the flat
+side, and the lever on the long flat bottom. Generate support from build plate 100% infill.
+
+## Jig:
+Print impression facing up. Any material will work, just make sure you have thick walls. 50% or
+greater infil is prefered.
+
+## Cheek Rest:
+E-sun PLA @235 50% infill. Print with the back of the tube touching the plate, and use supports
+for touching build plate only. The only part that needs support is the T section.
+
+## Brace:
+TPU (i used 190 deg C) 50% infill. Print laying on the butt side to the plate, the slot opening to
+the top. Print with support on, from everywhere, but can be printed without support with some
+loss of quality.
+
+## Legal Notices:
+This is published with the full intention for it to be used as it was designed as an arm brace. To
+match this intent you need to include the strap which is there for the purpose of tightly attaching
+to the forearm. Also critical to the intent of this brace is printing the correct parts in TPU and not
+in any other hard material. I’m not responsible for your puppers if you decide to print the brace
+in hard plastics.
