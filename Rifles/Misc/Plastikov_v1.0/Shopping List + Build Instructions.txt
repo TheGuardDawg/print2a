@@ -1,0 +1,107 @@
+Supplies:
+Long M4 Bolts: https://www.amazon.com/iExcell-Stainless-Socket-Screws-Threaded/dp/B07C9F2347/
+4.5mm Rod: https://www.amazon.com/uxcell-Lathe-Round-Solid-Length/dp/B07KY93BH4
+M2.5 Screws: https://www.amazon.com/Uxcell-a15070200ux0048-Stainless-Phillips-Screws/dp/B012TE3LDM
+M2.5 Drill/Tap Set: https://www.amazon.com/Drill-America-POUM2-5X-45-Plastic-Uncoated/dp/B071HQG8SP
+Metal Tubing for rails: https://www.onlinemetals.com/en/buy/stainless/10mm-x-30mm-x-1-5mm-stainless-rectangle-tube-304-welded-metric-60-length/pid/22318 <- This is quite expensive, but is enough length for several receivers - You can group buy with others in the Det_Disp server, try to source this size from a local shop, or wait for a commercial sales option (such as spookyrails) to be offered.
+Smaller M4 Bolts: https://www.amazon.com/Hilitchi-180-Piece-Stainless-Socket-Assortment/dp/B01MU4O1FJ
+
+A note from Ivan - I recommend that whatever steps you do and follow, you heat-weld the layer lines around the front and rear trunnion smooth.  This is done by taking a soldering iron and simply melting the layers on the outside of the receiver together in these areas.  This will increase the life of your receiver significantly, and is easy to do.
+
+Basic Instructions:
+
+1 Barrel Assembly Mounting
+
+	The front receiver should be printed at a 45deg angle, as the STL is already oriented.  Remove supports once printing is done. You won't need to drill out all the holes - really just the hammer, trigger, and rear trunnion holes.  If at some point you're having trouble with holes lining up, exercise good judgement as to if using a drill to get the holes to line up is a good idea.
+
+	The front trunnion should be held in by close-spec M4 Bolts - use your calipers and find six M4 bolts that are over 3.90mm.  I have found their spec size to vary 3.85 to 3.95, the bigger bolts you can use the better.
+	Once you have your six bolts, you will need to cut them down to size if they aren't ~20mm long already.  Remember that you may need to bevel the end of the bolt a little if you do have to cut it down.  
+	My six largest-diameter bolts were from the "Long M4 Bolts" item listed above.  I cut six of the shortest bolts down to 20mm and beveled with a Dremel tool.
+	
+	Once you have the six bolts beveled (they should easily screw in to the M4 nuts from item "Smaller M4 Bolts"), you are ready to mount the barrel assembly to the front receiver.
+	
+	My preferred method at this point was to take one nut and one bolt, hold the nut inside its recess inside the front receiver, and screw a bolt in until the bolt holds the nut in place, and vise versa.
+	Do this for all six bolts.  Once this is done, you can take the barrel assembly and slide it into the receiver.  Make sure to align the tabs on the handguard, it will try and not line up.  You can twist and press the handguard tabs to get the barrel assembly to drop in.
+	I did my barrel assemblies by dropping them down from the top of the receiver.  It will be a snug fit.  Once the barrel assembly is fully seated, tighten down the six bolts for the front trunnion.  I got these quite snug - be aware you shouldn't be tightening the bolts against the barrel, but against the nuts inside the receiver - if you can't get a bolt to tighten all the way down, it is likely too long and is hitting the barrel.
+	Do a wiggle test.  Hold the rear receiver with one hand and the end of the barrel with another (don't hold by the muzzle break, hold the end of the barrel).  Try and wiggle the barrel assembly up while wiggling the receiver down, then do the opposite.  Look closely at the front trunnion - it shouldn't have much wiggle at all relative to the receiver.
+	
+	Assuming the wiggle test goes well, you now have your barrel assembly mounted.  The next step is to install the hammer.  You can either drill the left side hammer pin hole out to fit the widest part of the hammer pin, or you can buy some 5mm rod.  I'll leave this one up to you to source.
+	I am currently using the original pins - I drilled the left side hammer pin hole out to the size of the largest part of the pin and drilled the other side out to 5mm.  I installed the hammer, with the pin having just a hair of hold on each side.  I then took a soldering iron and melted some scrap PLA into both sides of the pin hole to "seal" the pin in place.
+	
+
+
+2 Mating the Receivers
+
+	With the hammer installed, you can mate the rear receiver to the front receiver.  Start by removing all supports from the rear receiver. The receivers have alignment nubs to keep them true while you attach them.  Use a 25mm M4 bolt and an M4 nut from the "Smaller M4 Bolts" item in each of the six holes.  
+	Pay attention when fastening the bolts - work in a crosswise pattern, such as the top right screw, bottom left screw, top left screw, bottom right screw, middle left screw, middle right screw.  If you don't use a crosswise pattern, you can run into issues of such as a gap forming between the receivers.
+	Tighten the bolts down snug - use a pair of needle-nose pliers to hold the nut while you crank down the bolt.
+	
+	
+
+
+3 Dressing the Receiver
+
+	With the receivers mated, you can install the mag catch/trigger guard assembly.  I'll leave it to you to assemble the mag catch by watching the numerous videos out there regarding it.  It's a pain in the ass.
+	The trigger guard mounts easily - use 5 M4 bolts, I believe I used the 10mm bolts.  You'll mate each bolt to an M4 nut.  I did the bolts on the outside of the receiver, nuts on the inside.  It might be better to do the opposite, so this may change.
+	I got these fairly tight - but they don't need to be super tight.  Once you know your gun works well you can loctite these in place with purple loctite.
+
+	With the trigger guard mounted, you can next install the rear trunnion/stock assembly.  This one will be a little convoluted.  The rear receiver should be printed at a 45deg angle, as the STL is oriented.
+
+	I'll leave it to you for removing the old rivets from the rear trunnion - I used a punch and a hammer, plus some unkind words.  If you have issues punching them out you can always drill them, the rivets are very soft.
+	First, mount the rear trunnion by dropping it into the receiver.  I've been told that the rear trunnion pin holes are not consistent kit to kit, so there may be some chance that the hole in the receiver won't line up perfectly.  This isn't a big issue, as you can force match the hole by taking a 4.5mm drill bit and gently drilling out the hole in the receiver down into the rear trunnion.
+	The rear trunnion will pull your drill bit straight as you gently drill, thus creating a properly centered hole.  Take your 4.5mm rod, cut it to size (~60mm), then pin the rear trunnion in place.
+	The file for the Plastikov v0.9 will only have one pin hole for the rear trunnion - this is because the old rear receiver would constantly crack between the top pin hole and the top of the receiver.  The 3rd party tests of the receivers without the top pin hole didn't show a serious danger arising from missing this pin - if it does cause premature failure, I'll add it back in.
+	With the rear trunnion pinned, you can mount the stock.  BEFORE MOUNTING THE STOCK, take your 4.5mm drill bit and drill a hole aligned with the pin for the stock through the bottom of the rear receiver.  This hole could be printed in I think but was causing strength issues on early receivers. It may be added to a later version, but for now you can drill the hole.
+	If you didn't read the above line and put the pin in before drilling, you can still easily drill up from the bottom of the receiver to make a hole that will allow a centerpunch to tap the pin back out.
+	Take the stock and insert it from the rear of the receiver. Take your stock pin and hammer/punch it in.  Mine was hard to get to go, if you sand off the parkerizing from the pin it'll go much easier.
+	Next, install the latch assembly.  The spring goes in from the bottom, the screw/bolt goes in from the bottom after the spring, and the locking tab goes in last, from the top.  Hold the locking tab in place and tighten down the screw.
+
+	With the stock mounted, you can next install the trigger.  This follows the same steps as installing the hammer above, so refer to that section.
+
+	Install the "axis pin" by taking an M4 bolt and screwing it into the receiver.  I just cut an M4 Bolt to size.
+
+	Install the pistol grip as you would normally.  The factory screws are shitty, and the grip tends to come loose.  I added a lockwasher and it has done wonders for keeping the pistol grip tight.
+
+
+4 Crafting the rails
+	
+	This is by far the hardest part of the assembly, but as far as builds go it isn't bad at all.  Assuming you can get the 30x10x1.5mm steel stock, the rails are made by cutting the tubing to the sizes shown in the CAD model of the rails.  In general, you will want the "top" rail on both sides to be 0.240" wide, the "bottom" rail on both sides to be 0.380" wide, and the ejector to be 1" back from the front of the left hand rail, on the "bottom" rail, approx. 0.500" long, 0.61" wide.
+	If you can find raw stock that is a rough equivalent of 30x10x1.5mm stock (it should be smaller, not larger than those specs), you can use it.  you can also mill the rails if you're a madman.  I bent up a rail from a steel flat I cut out, it was time consuming but produced a useable rail.
+	For the stock tubing rails, I used a hacksaw for one rail set and a dremel tool with a cutoff wheel for the other.  The dremel tool was actually slower, but produced a nicer rail (straighter cut) and it isn't exhausting to use a dremel tool (hacksaws get hard to drag eventually).
+	Note that if using a .125" or smaller cutting blade, you can use one section of tubing to create both the left and right rail - to do this, pay very close attention to which part of the section is the left rail, which is the right rail, and which is top/bottom of each.
+	Once the rails are cut apart, you should clean them up with some sandpaper - hacksaws and dremels will leave sharp edges, we don't want that.
+	Once the rails are cleaned up, it is time to drill and tap them.  I held the rails tight against the inside of the receiver and marked the location of each hole for the screws by scratching the rail through the screw hole using a drill bit.
+	Once each hole is marked on the rail, I used a centerpunch to create a divot in each location, then drilled each hole out with the 2mm drill bit.  I then tapped each hole with the M2.5 tap.
+	With the rails tapped, they are basically done.  You may still need to clean up the fitment between the rails and the bolt carrier.  Also, you may need to bend your ejector fin up just a little to get the bolt to pass by it.  I used a vise to bend the fin up about 5 degrees.  You may also have to bend up the bottom rail on the right side about 5 degrees - this is because the locking lug on the bolt can sometimes try to hit the front trunnion instead of sliding into the front trunnion.  I used a pair of pliers to gently bend the end of the "bottom" rail on the right side up to fix this issue.
+	In the renders folder there is a picture of how far I bent my right side bottom rail up to allow the bolt to engage properly.  This is important to get right.
+
+
+5 Installing the rails
+	
+	With the rails crafted, you will mount them by doing a little gun gymnastics - take the bolt carrier and both rail sections and drop them into the gun all at once.  You could add little cutouts to allow the bolt carrier to be installed separate from the rails, but in the interest of simplicity I like to have the bolt carrier and rails install as a unit.
+	While pressing the bolt carrier and rails down into the receiver, start pushing the bolt carrier forwards.  It should slide forwards into battery, even though the rails will be loose/wiggly.  If your rails are too large/out of spec the bolt carrier may not be able to go forwards.
+	Once the bolt carrier is forward, you won't have to push down anymore (the hammer will be pushing up on the carrier when the carrier is rearward).  At this point you can start installing your rails screws.
+	Take your M2.5 screws and start installing screws.  If your holes on the rails are mislocated the screws might not go in - just try and get two screws per side to go in first.  Once you have two screws per side installed, you can then take your 2mm drill bit and force match the receiver holes to the holes you drilled in your rails.  Like when doing this for the rear trunnion, be gentle.
+	Using this technique all your screw holes should line up enough to get a screw into the rail.  All that is really needed is two screws per side that are tight - I've ran mine with just two screws per side - but having redundant screws is a good thing, especially if you mis-drill some of the holes.
+	After all the screws are mounted, your AK should be just about ready to roll.  Check that the bolt carrier moves easily, that the bolt doesn't strike the trunnion, and that nothing feels loose.
+	If you wish to make traditional AK-cutouts for the bolt carrier removal in the rails, note that you shouldn’t extend these cutouts all the way to the rear trunnion as is standard on AKs – because the Plastikov uses thicker rails in a slightly lower position, the carrier can hang up when recoiling if your cutouts extend all the way back.  I recommend you just do without the cutouts and just screw/unscrew the rails into place if you need to take the carrier out of the gun.
+
+6 Final Steps
+	
+	With the receiver assembled, I recommend you heat-weld the layer lines  around both trunnions smooth.  Info on that is at the top of this document.
+	If you have tested your rifle and are happy with how it works, you are free to stake screws in place - by taking a soldering iron you can melt PLA over the bolts on the Plastikov to keep them from backing out.  I haven't had real issues with bolts backing out because the plastic receiver dampens shock pretty well, but if you want a more permanent solution than loctite, melting PLA over the various bolts/screws can keep them from moving, and the PLA can be removed easily with a soldering iron later.
+	When the receiver fails, it will likely be at the rear trunnion area. A hairline crack will show up and expand slowly - I have not experience a single abrupt failure, so assuming you follow the instructions, the design fails in a safe way.
+
+7 Known Issues/Troubleshooting/How To Heat-Weld a Fiberglass Mask
+	
+	
+	The ejector fin on my 1018 rails tends to deform quickly from use.  1018 steel can't really be hardened, so it just isn’t suitable for ejector.  Once the ejector deforms sufficiently, it will quit working right. Using stainless steel for the rails/ejector will solve this.
+	Alternatively, you can cut out the section where the ejector fin would go on softer rails and heat weld in a stainless tab – this is really only a last resort sort of option, but it can work well.  There is a picture in the renders folder of how my ejector looks – it is just a tab of stainless steel I bent a 90-degree angle into, then I held it in that position with pliers while heating it with a soldering iron.  It will eventually sink into the plastic of the receiver, if you hold it steady you can get it to the right position then let it cool.
+	The hammer can try and shift over to the right side of the receiver, letting it hit the right side rail.  You can add a donut or something to shim it to the proper location, or you can melt a blob of PLA with a soldering iron between the hammer and the receiver wall to keep the hammer in the center.
+
+	The rear receiver is the weak point of this design - forces from recoil eventually cause a fatigue crack to show up.  With the 45deg print orientation, it should hold up - but a fiberglass mask will ensure the receiver won't crack up to 1000 (or possibly more) rounds.
+	You install a fiberglass mask by cutting a square of plain fiberglass, roughly big enough to cover the rear end of the receiver like in the pictures shown in the renders folder of my Plastikov.  You will take a soldering iron, and with the fiberglass sheet laid over the receiver, heat the plastic up through the fiberglass under it impregnates the fiberglass.
+	Do this in sections, until the entire fiberglass mat is stuck down to the receiver.  You can cut off the excess fiberglass with scissors, a dremel tool (wear a dust mask), or a hand file (wear a dust mask).
+
+
+	
