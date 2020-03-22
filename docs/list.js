@@ -46,9 +46,11 @@ const thingsList = getFilesByRegex('.', readmeRegex);
 const infoList = thingsList.map(readmeFilepath => {
   const folder = readmeFilepath.replace(readmeRegex, '');
   const tags = folder.split('/').map(str => str.split('_')).flat().filter(str => str !== '');
+  const readmeStat = fs.statSync(readmeFilepath);
 
   return {
     location: folder.replace(/\/$/, ''), //remove the last slash
+    datetime: readmeStat.mtime,
     tags: tags,
     readme: readmeFilepath,
     renders: folder ? getFilesByRegex(folder,imagesRegex) : null
