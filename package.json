@@ -1,0 +1,22 @@
+{
+  "name": "print2a",
+  "version": "1.0.0",
+  "description": "3d printed gun repository from sources across the internet",
+  "main": "docs/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "list": "node docs/list.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MSFTserver/print2a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSFTserver/print2a/issues"
+  },
+  "homepage": "https://github.com/MSFTserver/print2a#readme"
+}
