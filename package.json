@@ -9,6 +9,7 @@
   "scripts": {
     "list": "node docs/list.js"
   },
+  "pre-commit": [ "list" ],
   "repository": {
     "type": "git",
     "url": "git@github.com:MSFTserver/print2a.git"
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MSFTserver/print2a/issues"
   },
-  "homepage": "https://github.com/MSFTserver/print2a#readme"
+  "homepage": "https://github.com/MSFTserver/print2a#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
 }

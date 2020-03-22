@@ -1,6 +1,6 @@
 'use strict'
 
-const BASE_URL = window.location.hostname;
+const BASE_URL = 'https://github.com/MSFTserver/print2a/tree/master/';
 
 function handleUrls(string) {
   return string.replace('%','%25');
@@ -12,7 +12,7 @@ function displayResults(array) {
     return;
   }
 
-  const html = array.map(r => `<li><a href="${handleUrls(BASE_URL+r.location)}">${r.location}</a></li>`);
+  const html = array.map(r => `<li><a target="_blank" href="${handleUrls(BASE_URL+r.location)}">${r.location}</a></li>`);
 
   $('#results').html('<ul>'+html+'</ul>');
 }
