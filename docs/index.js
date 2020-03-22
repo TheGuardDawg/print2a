@@ -1,6 +1,7 @@
 'use strict'
 
 const BASE_URL = 'https://github.com/MSFTserver/print2a/tree/master/';
+const INITIAL_LIST_LENGTH = 10;
 
 function handleUrls(string) {
   return string.replace('%','%25');
@@ -41,4 +42,7 @@ $(document).ready(function(){
     displayResults(results);
   });
 
+  // initial display
+  const initialDisplay = files.sort((a,b) => dayjs(a.mtime).subtract(dayjs(b.mtime)))
+  displayResults(initialDisplay.slice(0,INITIAL_LIST_LENGTH));
 });
