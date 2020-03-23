@@ -49,7 +49,7 @@ const infoList = thingsList.map(readmeFilepath => {
   const readmeStat = fs.statSync(readmeFilepath);
 
   return {
-    location: folder.replace(/\/$/, ''), //remove the last slash
+    location: folder.replace(/\/$/ ''), //remove the last slash
     datetime: readmeStat.mtime,
     tags: tags,
     readme: readmeFilepath,
