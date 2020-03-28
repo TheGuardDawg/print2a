@@ -1,5 +1,7 @@
 FGC-9 MkI
 
+ECM Rifling Guide: https://github.com/MSFTserver/print2a/tree/master/Guides/ECM_Rifling_Guide_IvanTheTroll
+
 The FGC-9 is a 9x19mm pistol caliber carbine that is made mostly out of 3D-printed components, utilizes an AR-15 or airsoft M4 rifle fire control group, 
 is compatible with Glock magazines and offers a truly effective, simple to build and reliable tactical option for self-defense and more.
 
