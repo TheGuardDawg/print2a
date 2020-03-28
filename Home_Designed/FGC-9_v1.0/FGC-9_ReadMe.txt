@@ -1,4 +1,4 @@
-FGC-9 MkI
+FGC-9 MkI V1.0
 
 ECM Rifling Guide: https://github.com/MSFTserver/print2a/tree/master/Guides/ECM_Rifling_Guide_IvanTheTroll
 
