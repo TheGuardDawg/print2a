@@ -1,0 +1,2 @@
+The back side of the trigger was extended so that it will not depress all the way in a standard pocket. 
+On the back of the trigger, under the spring it must be filed down so that it is 13.05mm from front to back. This is easily fixed with a file and vice.

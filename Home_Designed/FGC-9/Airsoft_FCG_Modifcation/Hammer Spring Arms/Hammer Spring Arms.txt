@@ -1,0 +1,4 @@
+The arms for the hammer spring need to be resized to fit into the spring. 
+The part that sticks out of the hammer needs to be the same diameter as the part that fits inside. Approximately 7.15mm.
+Remove the arms from the hammer, and one at a time put them in a vice. 
+Tse a file to reduce the thicker part to the same diameter as the thiner part.

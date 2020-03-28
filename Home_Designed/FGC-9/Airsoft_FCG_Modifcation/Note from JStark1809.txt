@@ -1,0 +1,30 @@
+JStark1809 notes in addtion to Incarbonites instructions:
+
+If you want to use a JG/Golden Eagle M4 fire control group in your FGC-9 build, you will need to make sure that you are using the following components with it.
+
+Following parts from your airsoft fire control group:
+
+- Trigger
+- Hammer 
+- Disconnector 
+
+Components for/from actual AR-15 rifles:
+
+- Trigger spring 
+- Hammer spring
+- Disconnector spring  
+
+- Fire selector  
+
+- Fire selector detent
+- Fire selector detent spring
+
+You can buy the AR-15 components on AliExpress.
+
+You can find the parts in parts kits that often are listed as: "AR15 Lower Parts Kit 223 / 5.56" "Kit All Lower Pins, Springs and Detents .223/5.56 AR15 Parts"
+
+Example listing: https://www.aliexpress.com/item/33008262340.html 
+
+
+
+
